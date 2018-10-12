@@ -5,6 +5,11 @@ sudo: false
 branches:
   only:
     - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
     
 deploy:
   provider: pages
