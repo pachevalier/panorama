@@ -1,3 +1,11 @@
+language: r
+dist: trusty
+sudo: false
+
+branches:
+  only:
+    - master
+    
 deploy:
   provider: pages
   skip_cleanup: true
